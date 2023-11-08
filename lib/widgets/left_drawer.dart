@@ -30,6 +30,7 @@ class LeftDrawer extends StatelessWidget {
                 Text(
                   "Catat seluruh keperluan belanjamu di sini!",
                   // TODO: Tambahkan gaya teks dengan center alignment, font ukuran 15, warna putih, dan weight biasa
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 15, // Atur ukuran font
                     color: Colors.white, // Atur warna teks menjadi putih
@@ -58,7 +59,7 @@ class LeftDrawer extends StatelessWidget {
             title: const Text('Tambah Produk'),
             // Bagian redirection ke ShopFormPage
             onTap: () {
-              Navigator.push(
+              Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(
                     builder: (context) => ShopFormPage(),
