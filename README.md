@@ -14,3 +14,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+# Deploy App
+[![Build status](https://build.appcenter.ms/v0.1/apps/eef69e12-3671-43fa-a253-3e330ef73060/branches/staging/badge)](https://appcenter.ms)
